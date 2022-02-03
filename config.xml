@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.example.dictionary" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>hello dictionary</name>
+    <description>Sample Apache Cordova App</description>
+    <author email="aztek2008@gmail.com" href="https://github.com/Aztek2008/react-cordova-dictionary">
+        Oleksii Skopiuk Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+</widget>

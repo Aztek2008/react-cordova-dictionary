@@ -1,0 +1,71 @@
+{
+  "name": "com.example.dictionary",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.7.1",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^24.9.1",
+    "@types/node": "^12.20.42",
+    "@types/react": "^16.14.21",
+    "@types/react-dom": "^16.9.14",
+    "@types/react-redux": "^7.1.22",
+    "cordova_script": "^1.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "5.0.0",
+    "web-vitals": "^2.1.4",
+    "typescript": "~4.1.5",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "start": "reco serve",
+    "build": "reco checkversion && react-scripts build && reco copy && cordova build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eject": "react-scripts eject",
+    "reactstart": "react-scripts start"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "homepage": "./",
+  "displayName": "hello dictionary",
+  "description": "A words learning app based on RECO template.",
+  "main": "index.tsx",
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Oleksii Skopiuk",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/react-modal": "^3.13.1",
+    "@types/uuid": "^8.3.4",
+    "cordova-android": "^10.1.1",
+    "cordova-browser": "^6.0.0"
+  },
+  "cordova": {
+    "platforms": [
+      "browser",
+      "android"
+    ]
+  }
+}
